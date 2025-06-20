@@ -33,19 +33,22 @@
                 <label for="name">Ingresa tu nombre </label>
                 <input required id="nombre" placeholder="Ej:Jose" type="text">
                 <label for="age">Ingresa la edad</label>
-                <input required id="edad" placeholder="Solo numeros Ej:45" type="number">
+                <input pattern="[0-9]+" title="Ingrese solo números"   id="edad" placeholder="Solo numeros Ej:45" type="text">
                 <button id="entrar">Entrar</button>
             </div>
 
         </section>
-        <P id="resultado">RESULTADO</P>
+
+        <p  class="error" id="resultadoNegativo"></p>
+
+        <p   class="resultado" id="resultado">RESULTADO</p>
 
     </main>
     <footer>
         &copy;Jose-gomez-2025
     </footer>
 
-    <script src="./src/js/app.js"></script>
+    <script src="./src/js/sistema_interactivo.js"></script>
 </body>
 
 </html>

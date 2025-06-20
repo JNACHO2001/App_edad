@@ -31,7 +31,7 @@ main {
 }
 
 .formulario {
-  background-color: #f9f9f9;
+  background-color: #ffdbdb;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2 10px rgba(116, 139, 62, 0.1);
@@ -55,4 +55,22 @@ footer{
     text-align: center;
     background-color: brown;
     
+}
+.error{
+  color: red;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 black,
+  -1px -1px 0 black,
+  -1px -1px 0 black;
+  
+}
+.resultado{
+  color: aqua;
+  text-shadow: -1px -1px 0 black,
+  -1px -1px 0 black,
+  -1px -1px 0 black;
+
 }
