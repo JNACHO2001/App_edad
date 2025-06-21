@@ -18,12 +18,11 @@ Según la edad ingresada, el sistema mostrará un mensaje indicando si el usuari
 
 
 ## Cómo usar 
-1. Clona el repositorio o descarga los archivos.
-2. Abre el archivo `index.html` en tu navegador.
-3. Ingresa un **nombre** (solo letras y espacios).
-4. Ingresa una **edad** (solo números).
-5. Haz clic en el botón **"Entrar"**.
-6. Revisa el mensaje que aparecerá en pantalla.
+1. copia la direccion y pegala en tu navegador  
+2. Ingresa un **nombre** (solo letras y espacios).
+3. Ingresa una **edad** (solo números).
+4. Haz clic en el botón **"Entrar"**.
+5. Revisa el mensaje que aparecerá en pantalla.
 
 
 
@@ -39,4 +38,6 @@ Según la edad ingresada, el sistema mostrará un mensaje indicando si el usuari
 - clan **Caiman**.
 - cc **1193517136**.
 - GitHub **JNACHO2001**.
+- link **https://jnacho2001.github.io/App_edad/**
+
 
