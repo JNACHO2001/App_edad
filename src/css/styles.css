@@ -1,76 +1,106 @@
 
-
-
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: 100%;
-    background-color: aqua;
-   
-    
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: aqua;
 }
-nav,a{
-    padding: 20px;
-    text-decoration: none;
+
+nav, a {
+  padding: 20px;
+  text-decoration: none;
 }
 
 main {
+  flex: 1; 
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: calc(80vh - 100px); 
+  padding: 20px;
 }
 
 .formulario {
   background-color: #ffdbdb;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 2 10px rgba(116, 139, 62, 0.1);
+  box-shadow: 0 2px 10px rgba(116, 139, 62, 0.1);
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-input,button{
-    border-radius: 10px;
-    padding: 5px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: aqua;
 
+input, button {
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
 }
-footer{
-    padding: 0;
-    height: 100px;
-    padding-top: 112px;
-    text-align: center;
-    background-color: brown;
-    
+
+button:hover {
+  background-color: aqua;
 }
-.error{
+
+footer {
+  height: 100px;
+  text-align: center;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
   color: red;
   cursor: pointer;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: x-large;
   font-weight: bold;
-  text-shadow: -1px -1px 0 black,
-  -1px -1px 0 black,
-  -1px -1px 0 black;
-  
+  text-shadow: -1px -1px 0 black, -1px -1px 0 black, -1px -1px 0 black;
 }
-.resultado{
-  color: aqua;
-  text-shadow: -1px -1px 0 black,
-  -1px -1px 0 black,
-  -1px -1px 0 black;
 
+.resultado {
+  color: aqua;
+  text-shadow: -1px -1px 0 black, -1px -1px 0 black, -1px -1px 0 black;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+
+  main {
+    gap: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: medium;
+    text-align: center;
+  }
+}
+
+
+@media (max-height: 800px) {
+  header {
+    flex-direction: row;
+  }
+
+  main {
+    height: auto;
+  }
+
+  p {
+    text-align: center;
+  }
 }

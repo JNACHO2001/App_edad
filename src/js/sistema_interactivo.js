@@ -10,6 +10,7 @@ entrar.addEventListener('click', function () {
 
     // Se obtiene el valor del nombre y se eliminan espacios al inicio/final
     const nombreIngresado = nombre.value.trim();
+    
 
     // Se convierte la edad a un número entero
     const edadIngresada = parseInt(edad.value);
