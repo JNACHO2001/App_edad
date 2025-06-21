@@ -35,8 +35,8 @@ Según la edad ingresada, el sistema mostrará un mensaje indicando si el usuari
 
 
 ## Autor 
-Desarrollado por **Jose ignacio gomez guzman**.
-clan **Caiman**.
-cc **1193517136**.
-GitHub **JNACHO2001**.
+- Desarrollado por **Jose ignacio gomez guzman**.
+- clan **Caiman**.
+- cc **1193517136**.
+- GitHub **JNACHO2001**.
 
